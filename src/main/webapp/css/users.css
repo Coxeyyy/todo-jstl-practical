@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.test1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.table_users {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.table_users th {
+    font-weight: bold;
+    padding: 7px;
+    background: olivedrab;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid olivedrab;
+}
+
+.table_users td {
+    padding: 7px;
+    border: none;
+    border-bottom: 3px solid black;
+    font-size: 15px;
+}
+
+.table_users button {
+    background-color: olivedrab;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.form_wrapper button {
+    background-color: olivedrab;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
